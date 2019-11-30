@@ -1,111 +1,574 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
-<head>
-<title>Zechun Liu - HKUST Vision and System Design Lab</title>
-<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
-<meta name="apple-mobile-web-app-capable" content="yes"/>
-<link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+  <head>
+    <title>Peiliang Li - HKUST Aerial Robotics Group</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/peiliang_li_-_hkust_aerial_robotics_group/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/ie.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="files/peiliang_li_-_hkust_aerial_robotics_group/data.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
 
-<link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+      <!-- Unnamed (Rectangle) -->
+      <div id="u0" class="ax_default heading_1">
+        <div id="u0_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1" class="text" style="visibility: visible;">
+          <p style="font-size:36px;"><span>Peiliang Li </span></p><p style="font-size:28px;"><span>栗培梁</span></p>
+        </div>
+      </div>
 
-<link href="data/styles.css" type="text/css" rel="stylesheet"/>
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2" class="ax_default heading_2">
+        <div id="u2_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u3" class="text" style="visibility: visible;">
+          <p><span>About</span></p>
+        </div>
+      </div>
 
-  
-<script src="resources/scripts/jquery-1.7.1.min.js"></script>
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4" class="ax_default paragraph">
+        <div id="u4_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u5" class="text" style="visibility: visible;">
+          <p><span style="color:#434343;">I am Peiliang Li, a forth-year Ph.D student in </span><span style="color:#5A95BC;">HKUST UAV Group</span><span style="color:#434343;"> at the Robotics Institute of </span><span style="color:#5A95BC;">Hong Kong University of Science and Technology</span><span style="color:#434343;"> supervised by </span><span style="color:#5A95BC;">Prof. Shaojie Shen</span><span style="color:#434343;">. During my first Ph.D year, I mainly focus on visual inertial</span></p><p><span style="color:#434343;">state estimation (</span><span style="color:#5A95BC;">VINS-Mono</span><span style="color:#434343;">, </span><span style="color:#5A95BC;">VINS-Mobile</span><span style="color:#434343;">) and its application (UAV navigation, Augmented Reality). After that I employ</span></p><p><span style="color:#434343;">the 3D geometry methods inspired from VINS to solve the 3D object detection and tracking problem. I was an intern in Apple AI research team during 2019 summer, worked with </span><span style="color:#5A95BC;">Oncel Tuzel</span><span style="color:#434343;">, and in </span><span style="color:#5A95BC;">DJI</span><span style="color:#434343;">, during 2018 summer, worked with </span><span style="color:#5A95BC;">Xiaozhi Chen</span><span style="color:#434343;"> and </span><span style="color:#5A95BC;">Cong Zhao.</span><span style="color:#434343;"> I received my B.Eng. degree in electrical science and technology from </span><span style="color:#5A95BC;">USTC</span><span style="color:#434343;">.</span></p><p><span style="color:#434343;"><br></span></p><p><span style="color:#434343;">I'm interested in 3D Computer Vision, visual inertial fusion, and Machine Learning with particularly looking for their combination to solve the 3D objects detection, tracking and ego-motion estimation for autonomous driving.</span></p><p><span style="color:#434343;"><br></span></p><p><span style="color:#434343;">Contact : pliap at connect dot ust dot hk; peiliang.uav at gmail dot com; </span></p><p><span style="color:#434343;">Wechat: mystery1221</span></p><p><span style="color:#5A95BC;">[Scholar] [CV] [github]</span></p>
+        </div>
+      </div>
 
-<script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6" class="ax_default heading_2">
+        <div id="u6_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u7" class="text" style="visibility: visible;">
+          <p><span>Publications</span></p>
+        </div>
+      </div>
 
-<script src="resources/scripts/axure/axQuery.js"></script>
+      <!-- Unnamed (Rectangle) -->
+      <div id="u8" class="ax_default paragraph">
+        <div id="u8_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u9" class="text" style="visibility: visible;">
+          <p><span style="font-family:'Arial-BoldMT', 'Arial Bold', 'Arial';font-weight:700;font-style:normal;">Peiliang Li</span><span style="font-family:'ArialMT', 'Arial';font-weight:400;font-style:normal;">, Tong Qin, Shaojie Shen</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;font-style:normal;">European Conference on Computer Vision (</span><span style="font-family:'Arial-ItalicMT', 'Arial Italic', 'Arial';font-weight:400;font-style:italic;">ECCV 2018</span><span style="font-family:'ArialMT', 'Arial';font-weight:400;font-style:normal;">) </span></p>
+        </div>
+      </div>
 
-<script src="resources/scripts/axure/globals.js"></script>
+      <!-- Unnamed (Image) -->
+      <div id="u10" class="ax_default image">
+        <img id="u10_img" class="img " src="images/peiliang_li_-_hkust_aerial_robotics_group/u10.jpg"/>
+        <!-- Unnamed () -->
+        <div id="u11" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
 
-<script src="resources/scripts/axutils.js"></script>
+      <!-- Unnamed (Rectangle) -->
+      <div id="u12" class="ax_default paragraph">
+        <div id="u12_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u13" class="text" style="visibility: visible;">
+          <p><span>Stereo Vision-based Semantic 3D Object and Ego-motion Tracking for Autonomous Driving</span></p>
+        </div>
+      </div>
 
-<script src="resources/scripts/axure/annotation.js"></script>
+      <!-- Unnamed (Hot Spot) -->
+      <div id="u14" class="ax_default">
+      </div>
 
-<script src="resources/scripts/axure/axQuery.std.js"></script>
+      <!-- Unnamed (Rectangle) -->
+      <div id="u15" class="ax_default paragraph">
+        <div id="u15_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u16" class="text" style="visibility: visible;">
+          <p><span>VINS-Mono: A Robust and Versatile Monocular Visual-Inertial State Estimator</span></p>
+        </div>
+      </div>
 
-<script src="resources/scripts/axure/doc.js"></script>
+      <!-- Unnamed (Rectangle) -->
+      <div id="u17" class="ax_default paragraph">
+        <div id="u17_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u18" class="text" style="visibility: visible;">
+          <p><span style="font-family:'ArialMT', 'Arial';font-weight:400;font-style:normal;">Tong Qin, </span><span style="font-family:'Arial-BoldMT', 'Arial Bold', 'Arial';font-weight:700;font-style:normal;">Peiliang Li</span><span style="font-family:'ArialMT', 'Arial';font-weight:400;font-style:normal;">, Shaojie Shen</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;font-style:normal;">IEEE Transactions on Robotics (</span><span style="font-family:'Arial-ItalicMT', 'Arial Italic', 'Arial';font-weight:400;font-style:italic;">TRO 2018 </span><span style="font-family:'Arial-BoldItalicMT', 'Arial Bold Italic', 'Arial';font-weight:700;font-style:italic;color:#FF0000;">Best Paper Honorable Mention</span><span style="font-family:'ArialMT', 'Arial';font-weight:400;font-style:normal;">)</span></p>
+        </div>
+      </div>
 
-<script src="data/document.js"></script>
+      <!-- Unnamed (Rectangle) -->
+      <div id="u19" class="ax_default paragraph">
+        <div id="u19_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u20" class="text" style="visibility: visible;">
+          <p><span>Relocalization, Global Optimization, and Map Merging for Monocular Visual-Inertial SLAM </span></p>
+        </div>
+      </div>
 
-<script src="resources/scripts/messagecenter.js"></script>
+      <!-- Unnamed (Rectangle) -->
+      <div id="u21" class="ax_default paragraph">
+        <div id="u21_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u22" class="text" style="visibility: visible;">
+          <p><span style="font-family:'ArialMT', 'Arial';font-weight:400;font-style:normal;">Tong Qin, </span><span style="font-family:'Arial-BoldMT', 'Arial Bold', 'Arial';font-weight:700;font-style:normal;">Peiliang Li</span><span style="font-family:'ArialMT', 'Arial';font-weight:400;font-style:normal;">，Shaojie Shen</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;font-style:normal;">International Conference on Robotics and Automation (</span><span style="font-family:'Arial-ItalicMT', 'Arial Italic', 'Arial';font-weight:400;font-style:italic;">ICRA 2018</span><span style="font-family:'ArialMT', 'Arial';font-weight:400;font-style:normal;">)</span></p>
+        </div>
+      </div>
 
-<script src="resources/scripts/axure/events.js"></script>
+      <!-- Unnamed (Rectangle) -->
+      <div id="u23" class="ax_default paragraph">
+        <div id="u23_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24" class="text" style="visibility: visible;">
+          <p><span>Monocular Visual-Inertial State Estimation for Mobile Augmented Reality</span></p>
+        </div>
+      </div>
 
-<script src="resources/scripts/axure/recording.js"></script>
+      <!-- Unnamed (Rectangle) -->
+      <div id="u25" class="ax_default paragraph">
+        <div id="u25_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u26" class="text" style="visibility: visible;">
+          <p><span style="font-family:'Arial-BoldMT', 'Arial Bold', 'Arial';font-weight:700;font-style:normal;">Peiliang Li</span><span style="font-family:'ArialMT', 'Arial';font-weight:400;font-style:normal;">, Tong Qin, Botao Hu, Fengyuan Zhu, Shaojie Shen</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;font-style:normal;">International Symposium on Mixed and Augmented Reality (</span><span style="font-family:'Arial-ItalicMT', 'Arial Italic', 'Arial';font-weight:400;font-style:italic;">ISMAR 2017</span><span style="font-family:'ArialMT', 'Arial';font-weight:400;font-style:normal;">)</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;font-style:normal;"><br></span></p>
+        </div>
+      </div>
 
-<script src="resources/scripts/axure/action.js"></script>
+      <!-- Unnamed (Hot Spot) -->
+      <div id="u27" class="ax_default">
+      </div>
 
-<script src="resources/scripts/axure/expr.js"></script>
+      <!-- Unnamed (Hot Spot) -->
+      <div id="u28" class="ax_default">
+      </div>
 
-<script src="resources/scripts/axure/geometry.js"></script>
+      <!-- Unnamed (Hot Spot) -->
+      <div id="u29" class="ax_default">
+      </div>
 
-<script src="resources/scripts/axure/flyout.js"></script>
+      <!-- Unnamed (Hot Spot) -->
+      <div id="u30" class="ax_default">
+      </div>
 
-<script src="resources/scripts/axure/ie.js"></script>
+      <!-- Unnamed (Hot Spot) -->
+      <div id="u31" class="ax_default">
+      </div>
 
-<script src="resources/scripts/axure/model.js"></script>
+      <!-- Unnamed (Hot Spot) -->
+      <div id="u32" class="ax_default">
+      </div>
 
-<script src="resources/scripts/axure/repeater.js"></script>
+      <!-- Unnamed (Hot Spot) -->
+      <div id="u33" class="ax_default">
+      </div>
 
-<script src="resources/scripts/axure/sto.js"></script>
+      <!-- Unnamed (Hot Spot) -->
+      <div id="u34" class="ax_default">
+      </div>
 
-<script src="resources/scripts/axure/utils.temp.js"></script>
+      <!-- Unnamed (Hot Spot) -->
+      <div id="u35" class="ax_default">
+      </div>
 
-<script src="resources/scripts/axure/variables.js"></script>
+      <!-- Unnamed (Image) -->
+      <div id="u36" class="ax_default image">
+        <img id="u36_img" class="img " src="images/peiliang_li_-_hkust_aerial_robotics_group/u36.jpg"/>
+        <!-- Unnamed () -->
+        <div id="u37" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
 
-<script src="resources/scripts/axure/drag.js"></script>
+      <!-- Unnamed (Image) -->
+      <div id="u38" class="ax_default image">
+        <img id="u38_img" class="img " src="images/peiliang_li_-_hkust_aerial_robotics_group/u38.jpg"/>
+        <!-- Unnamed () -->
+        <div id="u39" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
 
-<script src="resources/scripts/axure/move.js"></script>
+      <!-- Unnamed (Image) -->
+      <div id="u40" class="ax_default image">
+        <img id="u40_img" class="img " src="images/peiliang_li_-_hkust_aerial_robotics_group/u40.jpg"/>
+        <!-- Unnamed () -->
+        <div id="u41" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
 
-<script src="resources/scripts/axure/visibility.js"></script>
+      <!-- Unnamed (Image) -->
+      <div id="u42" class="ax_default image">
+        <img id="u42_img" class="img " src="images/peiliang_li_-_hkust_aerial_robotics_group/u42.jpg"/>
+        <!-- Unnamed () -->
+        <div id="u43" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
 
-<script src="resources/scripts/axure/style.js"></script>
+      <!-- Unnamed (Image) -->
+      <div id="u44" class="ax_default image">
+        <img id="u44_img" class="img " src="images/peiliang_li_-_hkust_aerial_robotics_group/u44.jpg"/>
+        <!-- Unnamed () -->
+        <div id="u45" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
 
-<script src="resources/scripts/axure/adaptive.js"></script>
+      <!-- Unnamed (Image) -->
+      <div id="u46" class="ax_default image">
+        <img id="u46_img" class="img " src="images/peiliang_li_-_hkust_aerial_robotics_group/u46.jpg"/>
+        <!-- Unnamed () -->
+        <div id="u47" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
 
-<script src="resources/scripts/axure/tree.js"></script>
+      <!-- Unnamed (Image) -->
+      <div id="u48" class="ax_default image">
+        <img id="u48_img" class="img " src="images/peiliang_li_-_hkust_aerial_robotics_group/u48.jpg"/>
+        <!-- Unnamed () -->
+        <div id="u49" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
 
-<script src="resources/scripts/axure/init.temp.js"></script>
+      <!-- Unnamed (Image) -->
+      <div id="u50" class="ax_default image">
+        <img id="u50_img" class="img " src="images/peiliang_li_-_hkust_aerial_robotics_group/u50.jpg"/>
+        <!-- Unnamed () -->
+        <div id="u51" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
 
-<script src="files/peiliang_li_-_hkust_aerial_robotics_group/data.js"></script>
+      <!-- Unnamed (Image) -->
+      <div id="u52" class="ax_default image">
+        <img id="u52_img" class="img " src="images/peiliang_li_-_hkust_aerial_robotics_group/u52.jpg"/>
+        <!-- Unnamed () -->
+        <div id="u53" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
 
-<script src="resources/scripts/axure/legacy.js"></script>
+      <!-- Unnamed (Image) -->
+      <div id="u54" class="ax_default image">
+        <img id="u54_img" class="img " src="images/peiliang_li_-_hkust_aerial_robotics_group/u54.jpg"/>
+        <!-- Unnamed () -->
+        <div id="u55" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
 
-<script src="resources/scripts/axure/viewer.js"></script>
+      <!-- Unnamed (Horizontal Line) -->
+      <div id="u56" class="ax_default horizontal_line">
+        <img id="u56_img" class="img " src="images/peiliang_li_-_hkust_aerial_robotics_group/u56.png"/>
+        <!-- Unnamed () -->
+        <div id="u57" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
 
-<script src="resources/scripts/axure/math.js"></script>
+      <!-- Unnamed (Horizontal Line) -->
+      <div id="u58" class="ax_default horizontal_line">
+        <img id="u58_img" class="img " src="images/peiliang_li_-_hkust_aerial_robotics_group/u58.png"/>
+        <!-- Unnamed () -->
+        <div id="u59" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
 
-<script type="text/javascript">
-$axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
-$axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
-$axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
-</script>
-</head>
-<body>
-<div id="base" class="">
+      <!-- Unnamed (Horizontal Line) -->
+      <div id="u60" class="ax_default horizontal_line">
+        <img id="u60_img" class="img " src="images/peiliang_li_-_hkust_aerial_robotics_group/u58.png"/>
+        <!-- Unnamed () -->
+        <div id="u61" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
 
-<!-- Unnamed (Rectangle) -->
-<div id="u0" class="ax_default heading_1">
-<div id="u0_div" class=""></div>
-<!-- Unnamed () -->
-<div id="u1" class="text" style="visibility: visible;">
-<p style="font-size:36px;"><span>Zechun Liu </span></p><p style="font-size:28px;"><span>刘泽春</span></p>
-</div>
-</div>
+      <!-- Unnamed (Horizontal Line) -->
+      <div id="u62" class="ax_default horizontal_line">
+        <img id="u62_img" class="img " src="images/peiliang_li_-_hkust_aerial_robotics_group/u58.png"/>
+        <!-- Unnamed () -->
+        <div id="u63" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
 
-<!-- Unnamed (Rectangle) -->
-<div id="u2" class="ax_default heading_2">
-<div id="u2_div" class=""></div>
-<!-- Unnamed () -->
-<div id="u3" class="text" style="visibility: visible;">
-<p><span>About</span></p>
-</div>
-</div>
+      <!-- Unnamed (Horizontal Line) -->
+      <div id="u64" class="ax_default horizontal_line">
+        <img id="u64_img" class="img " src="images/peiliang_li_-_hkust_aerial_robotics_group/u58.png"/>
+        <!-- Unnamed () -->
+        <div id="u65" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
 
-<!-- Unnamed (Rectangle) -->
-<div id="u4" class="ax_default paragraph">
-<div id="u4_div" class=""></div>
+      <!-- Unnamed (Rectangle) -->
+      <div id="u66" class="ax_default paragraph">
+        <div id="u66_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u67" class="text" style="visibility: visible;">
+          <p><span>Code</span></p>
+        </div>
+      </div>
 
+      <!-- Unnamed (Rectangle) -->
+      <div id="u68" class="ax_default paragraph">
+        <div id="u68_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u69" class="text" style="visibility: visible;">
+          <p><span>Code</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u70" class="ax_default paragraph">
+        <div id="u70_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u71" class="text" style="visibility: visible;">
+          <p><span>Code</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u72" class="ax_default image">
+        <img id="u72_img" class="img " src="images/peiliang_li_-_hkust_aerial_robotics_group/u72.jpg"/>
+        <!-- Unnamed () -->
+        <div id="u73" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u74" class="ax_default image">
+        <img id="u74_img" class="img " src="images/peiliang_li_-_hkust_aerial_robotics_group/u74.jpg"/>
+        <!-- Unnamed () -->
+        <div id="u75" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Horizontal Line) -->
+      <div id="u76" class="ax_default horizontal_line">
+        <img id="u76_img" class="img " src="images/peiliang_li_-_hkust_aerial_robotics_group/u58.png"/>
+        <!-- Unnamed () -->
+        <div id="u77" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u78" class="ax_default paragraph">
+        <div id="u78_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u79" class="text" style="visibility: visible;">
+          <p><span style="font-family:'Arial-BoldMT', 'Arial Bold', 'Arial';font-weight:700;font-style:normal;">Peiliang Li</span><span style="font-family:'ArialMT', 'Arial';font-weight:400;font-style:normal;">, Xiaozhi Chen, Shaojie Shen</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;font-style:normal;">IEEE Conference on Computer Vision and Pattern Recognition (</span><span style="font-family:'Arial-ItalicMT', 'Arial Italic', 'Arial';font-weight:400;font-style:italic;">CVPR 2019</span><span style="font-family:'ArialMT', 'Arial';font-weight:400;font-style:normal;">) </span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u80" class="ax_default paragraph">
+        <div id="u80_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u81" class="text" style="visibility: visible;">
+          <p><span>Stereo R-CNN based 3D Object Detection for Autonomous Driving</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u82" class="ax_default heading_2">
+        <div id="u82_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u83" class="text" style="visibility: visible;">
+          <p><span>News</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u84" class="ax_default paragraph">
+        <div id="u84_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u85" class="text" style="visibility: visible;">
+          <p><span style="font-family:'Arial-BoldMT', 'Arial Bold', 'Arial';font-weight:700;">&#149;&nbsp; </span><span style="font-family:'ArialMT', 'Arial';font-weight:400;">[Feb 2019]&nbsp; One paper accepted by CVPR 2019.</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u86" class="ax_default paragraph">
+        <div id="u86_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u87" class="text" style="visibility: visible;">
+          <p><span style="font-family:'Arial-BoldMT', 'Arial Bold', 'Arial';font-weight:700;">&#149;&nbsp; </span><span style="font-family:'ArialMT', 'Arial';font-weight:400;">[Jan 2019]&nbsp; I will intern at Apple AI research team during 2019 summer.</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Horizontal Line) -->
+      <div id="u88" class="ax_default horizontal_line">
+        <img id="u88_img" class="img " src="images/peiliang_li_-_hkust_aerial_robotics_group/u56.png"/>
+        <!-- Unnamed () -->
+        <div id="u89" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u90" class="ax_default paragraph">
+        <div id="u90_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u91" class="text" style="visibility: visible;">
+          <p><span style="font-family:'Arial-BoldMT', 'Arial Bold', 'Arial';font-weight:700;">&#149;&nbsp; </span><span style="font-family:'ArialMT', 'Arial';font-weight:400;">[Apr 2019]&nbsp; Our journal paper </span><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#5A95BC;">VINS-Mono</span><span style="font-family:'ArialMT', 'Arial';font-weight:400;"> received the Honorable Mention for the 2018 IEEE T-RO Best Paper award!</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Hot Spot) -->
+      <div id="u92" class="ax_default">
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u93" class="ax_default paragraph">
+        <div id="u93_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u94" class="text" style="visibility: visible;">
+          <p><span style="font-family:'Arial-BoldMT', 'Arial Bold', 'Arial';font-weight:700;">&#149;&nbsp; </span><span style="font-family:'ArialMT', 'Arial';font-weight:400;">[Apr 2019]&nbsp; The code of Stereo R-CNN is released </span><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#5A95BC;">here</span><span style="font-family:'ArialMT', 'Arial';font-weight:400;">!</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Hot Spot) -->
+      <div id="u95" class="ax_default">
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u96" class="ax_default paragraph">
+        <div id="u96_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u97" class="text" style="visibility: visible;">
+          <p><span>Code</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Hot Spot) -->
+      <div id="u98" class="ax_default">
+      </div>
+
+      <!-- Unnamed (Hot Spot) -->
+      <div id="u99" class="ax_default">
+      </div>
+
+      <!-- Unnamed (Hot Spot) -->
+      <div id="u100" class="ax_default">
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u101" class="ax_default paragraph">
+        <div id="u101_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u102" class="text" style="visibility: visible;">
+          <p><span>Multi-Sensor 3D Object Box Refinement for Autonomous Driving</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u103" class="ax_default paragraph">
+        <div id="u103_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u104" class="text" style="visibility: visible;">
+          <p><span style="font-family:'Arial-BoldMT', 'Arial Bold', 'Arial';font-weight:700;">Peiliang Li</span><span style="font-family:'ArialMT', 'Arial';font-weight:400;">, Siqi Liu, Shaojie Shen</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;">Arxiv 2019&nbsp; Results on KITTI val:</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Horizontal Line) -->
+      <div id="u105" class="ax_default horizontal_line">
+        <img id="u105_img" class="img " src="images/peiliang_li_-_hkust_aerial_robotics_group/u58.png"/>
+        <!-- Unnamed () -->
+        <div id="u106" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u107" class="ax_default paragraph">
+        <div id="u107_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u108" class="text" style="visibility: visible;">
+          <p><span>Mono</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u109" class="ax_default image">
+        <img id="u109_img" class="img " src="images/peiliang_li_-_hkust_aerial_robotics_group/u109.jpg"/>
+        <!-- Unnamed () -->
+        <div id="u110" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u111" class="ax_default paragraph">
+        <div id="u111_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u112" class="text" style="visibility: visible;">
+          <p><span>Stereo</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u113" class="ax_default paragraph">
+        <div id="u113_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u114" class="text" style="visibility: visible;">
+          <p><span>LiDAR</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u115" class="ax_default image">
+        <img id="u115_img" class="img " src="images/peiliang_li_-_hkust_aerial_robotics_group/u115.png"/>
+        <!-- Unnamed () -->
+        <div id="u116" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
