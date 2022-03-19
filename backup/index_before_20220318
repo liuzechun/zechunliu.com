@@ -1,0 +1,448 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-108253468-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-108253468-1');
+</script>
+  <meta charset="utf-8">
+  
+  <title>Zechun Liu</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta property="og:type" content="website">
+<meta property="og:title" content="Zechun Liu">
+<meta property="og:url" content="/var/www/html/index.html">
+<meta property="og:site_name" content="Zechun Liu">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Zechun Liu">
+  
+  
+  
+  <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" integrity="sha384-XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="styles.css">
+  
+
+</head>
+
+<body>
+  <nav class="navbar navbar-inverse">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      
+        <a class="navbar-brand" href="">Zechun Liu</a>
+      
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="main-menu-navbar">
+      <ul class="nav navbar-nav">
+        
+          <li><a class=""
+                 href="#publications">Publications</a></li>
+        
+          <li><a class=""
+                 href=""></a></li>
+        
+          <li><a class=""
+                 href=""></a></li>
+        
+      </ul>
+
+      <!--
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+      -->
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+  <div class="container">
+    <div class="blog-header">
+  
+</div>
+
+    <div class="main">
+      
+  
+    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
+
+  
+
+  <div class="article-inner">
+
+    <div class="article-entry" itemprop="articleBody">
+          <b><p><img src="./pictures/liuzechun.jpg" style="float:left; margin-right: 20px;margin-top: 5px;  height: 300px;"> 
+
+<p><strong><font color="#4590a3" size="5px">About</font></strong></p>
+
+
+Currently, I am a visiting scholar in <a href="https://www.cmu.edu/">Carnegie Mellon University</a>, advised by <a href="http://zhiqiangshen.com">Dr. Zhiqiang Shen</a> and <a href="http://www.cs.cmu.edu/~epxing/">Prof. Eric Xing</a>. <br>
+
+I am also a fifth-year Ph.D. student in <a href="http://vsdl.ust.hk/"> Vision and System Design Lab </a>, <a href="https://www.ust.hk/home">Hong Kong University of Science and Technology</a>, supervised by <a href="https://seng.ust.hk/about/people/faculty/kwang-ting-tim-cheng">Prof. Kwang-Ting Tim CHENG </a>. <br>
+
+I interned in <a href="https://www.faceplusplus.com/"> Face++</a> in 2019, mentored by <a href="https://scholar.google.com/citations?user=yuB-cfoAAAAJ&hl=en"> Xiangyu Zhang </a>, <a href="https://scholar.google.com/citations?user=7aQ_YLwAAAAJ&hl=en"> Jian Sun </a>, and also in <a href="https://ai.tencent.com/ailab/en/index/"> Tencent AI lab </a> in 2018, mentored by <a href="https://sites.google.com/site/whluoimperial/"> Wenhan Luo </a>, 
+<a href="https://sites.google.com/site/baoyuanwu2015/"> Baoyuan Wu </a>, 
+<a href="https://scholar.google.com/citations?user=AjxoEpIAAAAJ&hl=en"> Wei Liu</a>. <br>
+
+Before starting my Ph.D. study in HKUST in Sept. 2016, I obtained my bachelor’s degree from Fudan University in June. 2016. </b>
+<br><br>
+
+<p><strong><font color="#4590a3" size="5px">Contact</font></strong></p>
+<p><img src="" style="float:left; margin-right: 0px; height: 145px;"> Email: zliubq[at]connect[dot]ust[dot]hk; zechunl[at]andrew[dot]cmu[dot]edu<br>
+<a href="https://scholar.google.com/citations?user=lA7ylt4AAAAJ&hl=zh-CN" target="_blank" rel="external">[Google Scholar]</a>&nbsp;|&nbsp; <a href="https://github.com/liuzechun" target="_blank" rel="external">[Github]</a> </p>
+<br>
+
+
+<p><strong><font color="#4590a3" size="5px">Research Interest</font></strong></p>
+
+<p>My research interests are computer vision, machine learning. Specifically, I am interested in using deep learning to solve the practical problems in the industry such as the limitation of insufficient resources and a trade-off between computation and accuracy. My research focus is mainly on:</p>
+<ul>
+<li> Neural architecture design and search </li>
+<li> Network binarization and quantization </li>
+<li> Network channel pruning </li>
+<li> Meta learnning </li>
+<li> Image synthesizing </li>
+<li> Few-shot learning</li>
+</ul>
+<br>
+
+	    
+<p><strong><font color="#4590a3" size="5px">News</font></strong></p>    
+<li>[May 2021] One paper accepted to ICML 2021.</li>	 
+<li>[Apr 2021] I co-organized a workshop on CVPR 2021:<b> <a href="https://binarynetworks.io/">Binary Networks for Computer Vision</a></b></li>
+<li>[Mar 2021] One paper accepted to CVPR 2021.</li>
+<li>[Jan 2021] One paper accepted to ICLR 2021.</li>
+<li>[Dec 2020] One paper accepted to AAAI 2021 and one paper accepted to IJCV 2021.</li>
+<li>[July 2020] Two papers accepted to ECCV 2020.</li>
+<li>[March 2020] One paper accepted to CVPR 2020.</li>
+<li>[Sept 2019] I come to Canegie Mellon University as a visiting scholar.</li>
+<br>
+
+<p><strong><font id="publications" color="#4590a3" size="5px">Publications </font></strong></p>
+<table border=0 cellpadding=0 width=100% style="border-spacing: 0 6px; line-height:14pt; border: 0px">
+
+<!--         <tr style="border-width: 1px">
+                <td style="border: 0px;"><img src="./pictures/pubilication_figures/TIP_JointPruning.png" style="height: 80px; width: 300px; margin-top: 15px"></td>
+                <td style="border: 0px;">
+                        <table style="width: 100%;"><tr><td style="width: 100%; text-align: left; border: 0px;">
+                        <p>
+                                <b>Zechun Liu</b>, Xiangyu Zhang, Zhiqiang Shen, Yichen Wei, Kwang-Ting Cheng, Jian Sun.
+                                <br>
+                        <a href="https://arxiv.org/abs/2005.08931"><b>Joint Multi-Dimension Pruning</b></a><br>
+                                Accepted to IEEE Transactions on Image Processing (TIP) with minor revision.<br>
+                                <b> <a href="https://arxiv.org/abs/2005.08931"; style="color: #EE7F2D;">Paper</a></b>
+                        </p>
+                        </td><td style="width: 10px;border: 0px">
+                        </td>
+                        </tr></table>
+                </td>
+        </tr>
+	
+        <tr style="border-width: 1px">
+                <td style="border: 0px;"><img src="./pictures/pubilication_figures/ICML2021_AdamBNN.png" style="height: 80px; width: 300px; margin-top: 15px"></td>
+                <td style="border: 0px;">
+                        <table style="width: 100%;"><tr><td style="width: 100%; text-align: left; border: 0px;">
+                        <p>
+                                <b>Zechun Liu*</b>, Zhiqiang Shen*, Shichao Li, Koen Helwegen, Dong Huang, Kwang-Ting Cheng.
+                                <br>
+                        <a href="https://arxiv.org/abs/2106.11309"><b>How Do Adam and Training Strategies Help BNNs Optimization</b></a><br>
+                                International Conference on Machine Learning (ICML), 2021.<br>
+                                <b> <a href="https://github.com/liuzechun/AdamBNN"; style="color: #EE7F2D;">Code & Models</a></b>  &nbsp;|&nbsp;
+                                <b> <a href="https://arxiv.org/abs/2106.11309"; style="color: #EE7F2D;">Paper</a></b>
+                        </p>
+                        </td><td style="width: 10px;border: 0px">
+                        </td>
+                        </tr></table>
+                </td>
+        </tr>
+
+	<tr style="border-width: 1px">
+		<td style="border: 0px;"><img src="./pictures/pubilication_figures/ReActNet.png" style="height: 150px; width: 200px; margin-top: 0px"></td>
+		<td style="border: 0px;">
+			<table style="width: 100%;"><tr><td style="width: 100%; text-align: left; border: 0px;">
+			<p>
+				<b>Zechun Liu</b>, Zhiqiang Shen, Marios Savvides, Kwang-Ting Cheng.
+				<br>
+			<a href="https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123590137.pdf"><b>ReActNet: Towards Precise Binary NeuralNetwork with Generalized Activation Functions</b></a><br>
+				European Conference on Computer Vision (ECCV), 2020.<br>
+				<b> <a href="https://github.com/liuzechun/ReActNet"; style="color: #EE7F2D;">Code & Models</a></b>  &nbsp;|&nbsp;
+				<b> <a href="https://arxiv.org/abs/2003.03488"; style="color: #EE7F2D;">Paper</a></b><br>
+				<a style="color: black;">We achieve <b>65.9%</b> (ResNet-based) and <b>69.5%</b> (MobileNet-based) top-1 accuracy on ImageNet (the new results are slightly higher than those in our original paper after we fix a small loading bug), for the first time, exceeding the benchmarking ResNet-level accuracy (69.3%) while achieving more than 22× reduction in computational complexity.</a>
+			</p>
+			</td><td style="width: 10px;border: 0px">
+			</td>
+			</tr></table>			
+		</td>
+	</tr>
+
+        <tr style="border-width: 1px">
+                <td style="border: 0px;"><img src="./pictures/pubilication_figures/CVPR2021_S2BNN.png" style="height: 97px; width: 240px; margin-top: 15px"></td>
+                <td style="border: 0px;">
+                        <table style="width: 100%;"><tr><td style="width: 100%; text-align: left; border: 0px;">
+                        <p>
+                                Zhiqiang Shen, <b>Zechun Liu</b>, Jie Qin, Lei Huang, Kwang-Ting Cheng, Marios Savvides.
+                                <br>
+                        <a href="https://arxiv.org/pdf/2102.08946.pdf"><b>S<sup>2</sup>-BNN: Bridging the Gap Between Self-Supervised Real and 1-bit Neural Networks via Guided Distribution Calibration</b></a><br>
+                                IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2021. <br>
+                                <b> <a href="https://github.com/szq0214/S2-BNN"; style="color: #EE7F2D;">Code & Models</a></b>  &nbsp;|&nbsp;
+                                <b> <a href="https://arxiv.org/abs/2102.08946"; style="color: #EE7F2D;">arXiv Paper</a></b>  <br>
+                        </p>
+                        </td><td style="width: 10px;border: 0px">
+                        </td>
+                        </tr></table>
+                </td>
+        </tr>
+	
+	<tr style="border-width: 1px">
+                <td style="border: 0px;"><img src="./pictures/pubilication_figures/CVPR2021_BNN-BN.png" style="height: 80px; width: 300px; margin-top: 10px"></td>
+                <td style="border: 0px;">
+                        <table style="width: 100%;"><tr><td style="width: 100%; text-align: left; border: 0px;">
+                        <p>
+                                Tianlong Chen, Zhenyu Zhang, Xu Ouyang, <b>Zechun Liu</b>, Zhiqiang Shen, Zhangyang Wang.
+                                <br>
+                        <a href="https://arxiv.org/pdf/2104.08215.pdf"><b>"BNN-BN=?": Training Binary Neural Networks without Batch Normalization</b></a><br>
+                                IEEE Conference on Computer Vision and Pattern Recognition (CVPR) Workshop, 2021. <b> <a href="https://binarynetworks.io/"; style="color: black;">BNNs</a></b> workshop as a spotlight.<br>
+                                <b> <a href="https://github.com/VITA-Group/BNN_NoBN"; style="color: #EE7F2D;">Code & Models</a></b>  &nbsp;|&nbsp;
+                                <b> <a href="https://arxiv.org/abs/2104.08215"; style="color: #EE7F2D;">arXiv Paper</a></b>
+                        </p>
+                        </td><td style="width: 10px;border: 0px">
+                        </td>
+                        </tr></table>
+                </td>
+        </tr>
+	
+        <tr style="border-width: 1px">
+                <td style="border: 0px;"><img src="./pictures/pubilication_figures/ICLR2021_LS_and_KD.png" style="height: 120px; width: 450px; margin-top: -25px"></td>
+                <td style="border: 0px;">
+                        <table style="width: 100%;"><tr><td style="width: 100%; text-align: left; border: 0px;">
+                        <p>
+                                Zhiqiang Shen, <b>Zechun Liu</b>, Dejia Xu, Zitian Chen, Kwang-Ting Cheng, Marios Savvides.
+                                <br>
+                        <a href="https://openreview.net/pdf?id=PObuuGVrGaZ"><b>Is Label Smoothing Truly Incompatible with Knowledge Distillation: An Empirical Study</b></a><br>
+                                International Conference on Learning Representations (ICLR), 2021.<br>
+                                <b> <a href="http://zhiqiangshen.com/projects/LS_and_KD/index.html"; style="color: #EE7F2D;">Project Page</a></b> &nbsp;|&nbsp;
+                                <b> <a href="https://openreview.net/pdf?id=PObuuGVrGaZ"; style="color: #EE7F2D;">Paper</a></b> <br>
+                        </p>
+                        </td><td style="width: 10px;border: 0px">
+                        </td>
+                        </tr></table>
+                </td>
+        </tr>
+
+        <tr style="border-width: 1px">
+                <td style="border: 0px;"><img src="./pictures/pubilication_figures/WACV2021_geyi.png" style="height: 100px; width: 375px; margin-top: 0px"></td>
+                <td style="border: 0px;">
+                        <table style="width: 100%;"><tr><td style="width: 100%; text-align: left; border: 0px;">
+                        <p>
+                                Ellen Yi-Ge, Rui Fan, <b>Zechun Liu</b>, Zhiqiang Shen.
+                                <br>
+                        <a href="https://arxiv.org/pdf/2011.14462.pdf"><b>Conditional Link Prediction of Category-Implicit Keypoint Detection</b></a><br>
+                                Winter Conference on Applications of Computer Vision (WACV), 2021.<br>
+                                <b> <a href="https://arxiv.org/abs/2011.14462"; style="color: #EE7F2D;">Paper</a></b> <br>
+                        </p>
+                        </td><td style="width: 10px;border: 0px">
+                        </td>
+                        </tr></table>
+                </td>
+        </tr>	
+
+        <tr style="border-width: 1px">
+                <td style="border: 0px;"><img src="./pictures/pubilication_figures/AAAI2021_few-shot.png" style="height: 120px; width: 450px; margin-top: 3px"></td>
+                <td style="border: 0px;">
+                        <table style="width: 100%;"><tr><td style="width: 100%; text-align: left; border: 0px;">
+                        <p>
+                                Zhiqiang Shen*, <b>Zechun Liu*</b>, Jie Qin, Marios Savvides, Kwang-Ting Cheng.
+                                <br>
+                        <a href="https://arxiv.org/pdf/2102.03983.pdf"><b>Partial Is Better Than All: Revisiting Fine-tuning Strategy for Few-shot Learning</b></a><br>
+                                Association for the Advancement of Artificial Intelligence (AAAI), 2021.<br>
+                                <b> <a href="https://arxiv.org/abs/2102.03983"; style="color: #EE7F2D;">Paper</a></b> <br>
+                        </p>
+                        </td><td style="width: 10px;border: 0px">
+                        </td>
+                        </tr></table>
+                </td>
+        </tr>
+ -->
+	
+	<tr style="border-width: 1px">
+		<td style="border: 0px;"><img src="./pictures/pubilication_figures/spos.png" style="height: 90px; width: 200px; margin-top: -2px"></td>
+		<td style="border: 0px;">
+			<table style="width: 100%;"><tr><td style="width: 100%; text-align: left; border: 0px;">
+			<p>
+				Zichao Guo, Xiangyu Zhang, Haoyuan Mu, Wen Heng, <b>Zechun Liu</b>, Yichen Wei, Jian Sun.
+				<br>
+			<a href="https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123610528.pdf"><b>Single Path One-Shot Neural Architecture Search with Uniform Sampling</b></a><br>
+				European Conference on Computer Vision (ECCV), 2020.<br>
+				<b> <a href="https://github.com/megvii-model/ShuffleNet-Series/tree/master/OneShot"; style="color: #EE7F2D;">Code & Models</a></b>  &nbsp;|&nbsp;
+				<b> <a href="https://arxiv.org/abs/1904.00420"; style="color: #EE7F2D;">Paper</a></b>
+			</p>
+			</td><td style="width: 10px;border: 0px">
+			</td>
+			</tr></table>			
+		</td>
+	</tr>
+
+	
+	<tr style="border-width: 1px">
+		<td style="border: 0px;"><img src="./pictures/pubilication_figures/BinaryMobileNet.png" style="height: 110px; width: 120px; margin-top: 0px; margin-left: 10px; margin-right: 5px "></td>
+		<td style="border: 0px;">
+			<table style="width: 100%;"><tr><td style="width: 100%; text-align: left; border: 0px;">
+			<p>
+				Hai Phan*, <b>Zechun Liu*</b>, Dang Huynh, Marios Savvides, Kwang-Ting Cheng, Zhiqiang Shen.(*:Equal contribution)
+				<br>
+			<a href="https://openaccess.thecvf.com/content_CVPR_2020/papers/Phan_Binarizing_MobileNet_via_Evolution-Based_Searching_CVPR_2020_paper.pdf"><b>Binarizing MobileNet via Evolution-based Searching</b></a><br>
+				IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2020.<br>
+				<b> <a href="https://arxiv.org/abs/2005.06305"; style="color: #EE7F2D;">Paper</a></b>
+			</p>
+			</td><td style="width: 10px;border: 0px">
+			</td>
+			</tr></table>			
+		</td>
+	</tr>
+	
+	<tr style="border-width: 1px">
+		<td style="border: 0px;"><img src="./pictures/pubilication_figures/metapruning.png" style="height: 110px; width: 120px; margin-top: 0px"></td>
+		<td style="border: 0px;">
+			<table style="width: 100%;"><tr><td style="width: 100%; text-align: left; border: 0px;">
+			<p>
+				<b>Zechun Liu</b>, Haoyuan Mu, Xiangyu Zhang, Zichao Guo, Xin Yang, Kwang-Ting Cheng, Jian Sun.
+				<br>
+			<a href="http://openaccess.thecvf.com/content_ICCV_2019/papers/Liu_MetaPruning_Meta_Learning_for_Automatic_Neural_Network_Channel_Pruning_ICCV_2019_paper.pdf"><b>MetaPruning: Meta Learning for Automatic Neural Network Channel Pruning</b></a><br>
+				IEEE International Conference on Computer Vision (ICCV), 2019.<br>
+				<b> <a href="https://github.com/liuzechun/MetaPruning"; style="color: #EE7F2D;">Code & Models</a></b>  &nbsp;|&nbsp;
+				<b> <a href="https://arxiv.org/abs/1903.10258"; style="color: #EE7F2D;">Paper</a></b>
+			</p>
+			</td><td style="width: 10px;border: 0px">
+			</td>
+			</tr></table>			
+		</td>
+	</tr>
+
+
+
+	<tr style="border-width: 1px">
+		<td style="border: 0px;"><img src="./pictures/pubilication_figures/bireal-ijcv.png" style="height: 100px; width: 450px; margin-top: 0px"></td>
+		<td style="border: 0px;">
+			<table style="width: 100%;"><tr><td style="width: 100%; text-align: left; border: 0px;">
+			<p>
+				<b>Zechun Liu</b>, Wenhan Luo, Baoyuan Wu, Xin Yang, Wei Liu, Kwang-Ting Cheng.
+				<br>
+			<a href="https://link.springer.com/content/pdf/10.1007%2Fs11263-019-01227-8.pdf"><b>Bi-Real Net: Binarizing Deep Network Towards Real-Network Performance</b></a><br>
+				International Journal of Computer Vision (IJCV).<br>
+				<b> <a href="https://github.com/liuzechun/Bi-Real-net"; style="color: #EE7F2D;">Code & Models</a></b>  &nbsp;|&nbsp;
+				<b> <a href="https://arxiv.org/abs/1811.01335"; style="color: #EE7F2D;">Paper</a></b>
+			</p>
+			</td><td style="width: 10px;border: 0px">
+			</td>
+			</tr></table>			
+		</td>
+	</tr>
+
+
+
+	<tr style="border-width: 1px">
+		<td style="border: 0px;"><img src="./pictures/pubilication_figures/bireal-eccv.png" style="height: 90px; width: 450px; margin-top: 15px"></td>
+		<td style="border: 0px;">
+			<table style="width: 100%;"><tr><td style="width: 100%; text-align: left; border: 0px;">
+			<p>
+				<b>Zechun Liu</b>, Baoyuan Wu, Wenhan Luo, Xin Yang, Wei Liu, Kwang-Ting Cheng.
+				<br>
+			<a href="http://openaccess.thecvf.com/content_ECCV_2018/papers/zechun_liu_Bi-Real_Net_Enhancing_ECCV_2018_paper.pdf"><b>Bi-Real Net: Enhancing the Performance of 1-bit CNNs with Improved Representational Capability and Advanced Training Algorithm</b></a><br>
+				European Conference on Computer Vision (ECCV), 2018.<br>
+				<b> <a href="https://github.com/liuzechun/Bi-Real-net"; style="color: #EE7F2D;">Code & Models</a></b>  &nbsp;|&nbsp;
+				<b> <a href="https://arxiv.org/abs/1808.00278"; style="color: #EE7F2D;">Paper</a></b>
+			</p>
+			</td><td style="width: 10px;border: 0px">
+			</td>
+			</tr></table>			
+		</td>
+	</tr>
+
+	
+
+	<tr style="border-width: 1px">
+		<td style="border: 0px;"><img src="./pictures/pubilication_figures/bop.png" style="height: 80px; width: 450px; margin-top: 10px"></td>
+		<td style="border: 0px;">
+			<table style="width: 100%;"><tr><td style="width: 100%; text-align: left; border: 0px;">
+			<p>
+				Koen Helwegen, James Widdicombe, Lukas Geiger, <b>Zechun Liu</b>, Kwang-Ting Cheng, Roeland Nusselder.
+				<br>
+			<a href="https://papers.nips.cc/paper/8971-latent-weights-do-not-exist-rethinking-binarized-neural-network-optimization.pdf"><b>Latent Weights Do Not Exist: Rethinking Binarized Neural Network Optimization</b></a><br>
+				Advances in Neural Information Processing Systems 32 pre-proceedings (NIPS), 2019.<br>
+				<b> <a href="https://github.com/plumerai/rethinking-bnn-optimization"; style="color: #EE7F2D;">Code & Models</a></b>  &nbsp;|&nbsp;
+				<b> <a href=" https://arxiv.org/abs/1906.02107"; style="color: #EE7F2D;">Paper</a></b>
+			</p>
+			</td><td style="width: 10px;border: 0px">
+			</td>
+			</tr></table>			
+		</td>
+	</tr>
+
+
+</table>
+
+<p><strong><font color="#4590a3" size="5px">Awards and Honors</font></strong></p>
+<ul>
+<li> Postgraduate Studentship, HKUST 2016-2020 </li>
+<li> Oversea Research Award, HKUST 2019 </li>
+<li> Travel Award NeurIPS 2019, ICCV 2019, ECCV 2018 </li>
+<li> Shanghai Outstanding Graduate, Fudan University 2016 </li>
+<li> Chinese National Scholarship, Fudan University 2012-2013 & 2013-2014 </li>
+</ul>
+<br>
+
+<p><strong><font color="#4590a3" size="5px">Teaching Assistant</font></strong></p>
+<ul>
+<li> 2017.2 - 2016.6, HKUST, ELEC 2300 Computer Organization </li>
+<li> 2017.9 - 2018.1, HKUST, ELEC 4010K Machine Learning and Information Processing for Robotic Perception </li>
+<li> 2017.2 - 2016.6, HKUST, ELEC 2300 Computer Organization </li>
+	
+</ul>
+
+    </div>
+
+    
+  </div>
+</article>
+
+<div align="center">
+<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=858585&w=300&t=n&d=QLkoiXSxiN0bb8INVm1oB3dAORWmDBpQKl7qOsphiq8&co=ffffff&cmo=91b7f0&cmn=a06ce3'></script>
+</div>
+
+    </div>
+  </div>
+  <footer class="blog-footer">
+  <div class="container">
+    <div id="footer-info" class="inner">
+      &copy; 2019 Zechun Liu. All rights reserved<br>
+      (Last update: Dec. 1, 2019.)<br>
+    </div>
+  </div>
+</footer>
+
+  
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js" integrity="sha384-8gBf6Y4YYq7Jx97PIqmTwLPin4hxIzQw5aDmUg/DDhul9fFpbbLcLh3nTIIDJKhx" crossorigin="anonymous"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
+
